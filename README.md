@@ -1,6 +1,6 @@
 # React Native Workshop
 
-Welcome to the React Native Workshop. The goal of it is to gain better understanding of what can be achieved with this technology, how can we apply it to some of our day to day? And having fun.
+Welcome to the React Native Workshop. The goal of it is to gain better understanding of what can be achieved with this technology, how can we apply it to some of our day to day work, and having fun.
 
 Here you will find a workshop intended to help you:
 
