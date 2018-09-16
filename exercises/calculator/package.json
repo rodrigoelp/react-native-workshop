@@ -1,0 +1,34 @@
+{
+    "name": "calculator",
+    "version": "1.0.0",
+    "description": "This is a simple calculator project",
+    "main": "gen/index.js",
+    "author": "Rod Landaeta",
+    "license": "MIT",
+    "scripts": {
+        "compile": "./node_modules/.bin/tsc",
+        "exec": "node gen/index.js",
+        "test": "./node_modules/.bin/jest"
+    },
+    "devDependencies": {
+        "@types/jest": "^23.3.2",
+        "@types/node": "^10.9.4",
+        "jest": "^23.6.0",
+        "ts-jest": "^23.1.4",
+        "typescript": "^3.0.3"
+    },
+    "jest": {
+        "transform": {
+            "^.+\\.tsx?$": "ts-jest"
+        },
+        "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "moduleFileExtensions": [
+            "ts",
+            "tsx",
+            "js",
+            "jsx",
+            "json",
+            "node"
+        ]
+    }
+}
